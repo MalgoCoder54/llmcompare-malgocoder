@@ -1,27 +1,21 @@
-Ciao Boss,
+# Confronto tra GPT-o3-mini-high e GPT-o1
 
-Ecco un esempio di file `README.md` per la tua repository contenente gli script generati dai modelli GPT3o-mini-high e GPTo1. Questo template segue le migliori pratiche per la documentazione su GitHub e fornisce una panoramica chiara dei contenuti della repository.
-
----
-
-# Confronto tra GPT3o-mini-high e GPTo1
-
-Questa repository contiene quattro script Python generati utilizzando i modelli GPT3o-mini-high e GPTo1, ciascuno applicato a due prompt distinti. L'obiettivo è analizzare e confrontare le differenze nei codici prodotti dai due modelli in risposta agli stessi input.
+Questa repository contiene quattro script Python generati utilizzando i modelli GPT-o3-mini-high e GPT-o1, ciascuno applicato a due prompt distinti. L'obiettivo è analizzare e confrontare le differenze nei codici prodotti dai due modelli in risposta agli stessi input.
 
 ## Struttura della Repository
 
 La repository è organizzata come segue:
 
 ```
-├── prompt1_gpt3o_mini_high.py
+├── prompt1_gpt_o3_mini_high.py
 ├── prompt1_gpto1.py
-├── prompt2_gpt3o_mini_high.py
+├── prompt2_gpt_o3_mini_high.py
 └── prompt2_gpto1.py
 ```
 
-- **prompt1_gpt3o_mini_high.py**: Script generato dal modello GPT3o-mini-high in risposta al primo prompt.
+- **prompt1_gpt_o3_mini_high.py**: Script generato dal modello GPT3o-mini-high in risposta al primo prompt.
 - **prompt1_gpto1.py**: Script generato dal modello GPTo1 in risposta al primo prompt.
-- **prompt2_gpt3o_mini_high.py**: Script generato dal modello GPT3o-mini-high in risposta al secondo prompt.
+- **prompt2_gpt_o3_mini_high.py**: Script generato dal modello GPT3o-mini-high in risposta al secondo prompt.
 - **prompt2_gpto1.py**: Script generato dal modello GPTo1 in risposta al secondo prompt.
 
 ## Prompt Utilizzati
@@ -45,6 +39,7 @@ Ottimo punto di partenza, ora vorrei che ogni volta che cambio un parametro, una
 Per eseguire gli script, assicurati di avere Python installato sul tuo sistema. Puoi eseguire ciascuno script utilizzando il seguente comando:
 
 ```bash
+pip install requirements.txt
 python nome_script.py
 ```
 
